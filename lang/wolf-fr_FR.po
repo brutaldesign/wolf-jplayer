@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wolf jPlayer\n"
+"POT-Creation-Date: 2014-03-07 15:46+0100\n"
+"PO-Revision-Date: 2014-03-07 15:46+0100\n"
+"Last-Translator: WpWolf <help@wpwolf.com>\n"
+"Language-Team: WpWolf <help@wpwolf.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wolf-jplayer.php:227 pack/wolf-jplayer/wolf-jplayer.php:226
+msgid "Manage playlists"
+msgstr ""
+
+#: wolf-jplayer.php:228 pack/wolf-jplayer/wolf-jplayer.php:227
+msgid "Options"
+msgstr ""
+
+#: wolf-jplayer.php:314 pack/wolf-jplayer/wolf-jplayer.php:313
+msgid "Background Color"
+msgstr ""
+
+#: wolf-jplayer.php:315 pack/wolf-jplayer/wolf-jplayer.php:314
+msgid "Background Opacity in percent"
+msgstr ""
+
+#: wolf-jplayer.php:316 pack/wolf-jplayer/wolf-jplayer.php:315
+msgid "Text and Icons Color"
+msgstr "Couleur du texte et des icônes"
+
+#: wolf-jplayer.php:317 pack/wolf-jplayer/wolf-jplayer.php:316
+msgid "Enable scrollbar when the playlist has more than 5 songs (beta)"
+msgstr ""
+
+#: wolf-jplayer.php:318 pack/wolf-jplayer/wolf-jplayer.php:317
+msgid "Generate  facebook and google plus metadata on playlist single page"
+msgstr "Générer balises meta pour facebook et google+"
+
+#: wolf-jplayer.php:319 pack/wolf-jplayer/wolf-jplayer.php:318
+msgid "Disable flash fallback"
+msgstr ""
+
+#: wolf-jplayer.php:320 pack/wolf-jplayer/wolf-jplayer.php:319
+msgid "Infos"
+msgstr ""
+
+#: wolf-jplayer.php:439 pack/wolf-jplayer/wolf-jplayer.php:438
+msgid ""
+"If you choose to disable the flash fallback, you will have to upload an ogg "
+"file for each song. This is useful only if you care about the compatibility "
+"with firefox on IOS."
+msgstr ""
+
+#: wolf-jplayer.php:454 pack/wolf-jplayer/wolf-jplayer.php:453
+msgid "Player Color Settings"
+msgstr "Options de Style"
+
+#: wolf-jplayer.php:457 pack/wolf-jplayer/wolf-jplayer.php:456
+msgid "Settings saved."
+msgstr ""
+
+#: wolf-jplayer.php:464 pack/wolf-jplayer/wolf-jplayer.php:463
+msgid "Save Changes"
+msgstr ""
+
+#: includes/jplayer-show.php:100
+#: pack/wolf-jplayer/includes/jplayer-show.php:100
+#: pack/wolf-jplayer/templates/jplayer-frame.php:127
+#: templates/jplayer-frame.php:127
+msgid "Buy on iTunes"
+msgstr ""
+
+#: includes/jplayer-show.php:101
+#: pack/wolf-jplayer/includes/jplayer-show.php:101
+#: pack/wolf-jplayer/templates/jplayer-frame.php:128
+#: templates/jplayer-frame.php:128
+msgid "Buy on amazon"
+msgstr ""
+
+#: includes/jplayer-show.php:102
+#: pack/wolf-jplayer/includes/jplayer-show.php:102
+#: pack/wolf-jplayer/templates/jplayer-frame.php:129
+#: templates/jplayer-frame.php:129
+msgid "Buy now"
+msgstr ""
+
+#: includes/jplayer-show.php:103
+#: pack/wolf-jplayer/includes/jplayer-show.php:103
+#: pack/wolf-jplayer/templates/jplayer-frame.php:130
+#: templates/jplayer-frame.php:130
+msgid "Right click and save link to download the mp3"
+msgstr ""
+
+#: includes/jplayer-show.php:363
+#: pack/wolf-jplayer/includes/jplayer-show.php:363
+msgid "Share on facebook"
+msgstr ""
+
+#: includes/jplayer-show.php:366
+#: pack/wolf-jplayer/includes/jplayer-show.php:366
+msgid "Share on twitter"
+msgstr ""
+
+#: includes/jplayer-show.php:370
+#: pack/wolf-jplayer/includes/jplayer-show.php:370
+msgid "close"
+msgstr ""
+
+#: includes/jplayer-show.php:377
+#: pack/wolf-jplayer/includes/jplayer-show.php:377
+msgid "share"
+msgstr ""
+
+#: includes/jplayer-show.php:435
+#: pack/wolf-jplayer/includes/jplayer-show.php:435
+msgid ""
+"This playlist does not exist or is empty. Please double check the playlist "
+"ID and be sure you have uploaded songs."
+msgstr ""
+
+#: includes/jplayer-show.php:437
+#: pack/wolf-jplayer/includes/jplayer-show.php:437
+msgid "This playlist does not exist or is empty."
+msgstr ""
+
+#: includes/jplayer-widget.php:25
+#: pack/wolf-jplayer/includes/jplayer-widget.php:25
+msgid "Display a playlist"
+msgstr ""
+
+#: includes/jplayer-widget.php:88 includes/admin/admin-songs.php:61
+#: pack/wolf-jplayer/includes/jplayer-widget.php:88
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:61
+msgid "Title"
+msgstr ""
+
+#: includes/jplayer-widget.php:92
+#: pack/wolf-jplayer/includes/jplayer-widget.php:92
+msgid "Optional Text"
+msgstr ""
+
+#: includes/jplayer-widget.php:97
+#: pack/wolf-jplayer/includes/jplayer-widget.php:97
+msgid "Playlist"
+msgstr ""
+
+#: includes/jplayer-widget.php:106
+#: pack/wolf-jplayer/includes/jplayer-widget.php:106
+msgid "No playlist yet."
+msgstr ""
+
+#: includes/admin/admin-functions.php:29
+#: pack/wolf-jplayer/includes/admin/admin-functions.php:29
+msgid "Hide permanently"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:13
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:13
+msgid "Create"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:23
+#: includes/admin/admin-song-functions.php:38
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:23
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:38
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:27
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:27
+msgid "Create a new playlist"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:28
+#: includes/admin/admin-song-functions.php:44
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:28
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:44
+msgid "Fields marked with * are required"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:30
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:30
+msgid "Update your playlist name"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:35
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:35
+msgid "Playlist name"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:39
+#: includes/admin/admin-playlists.php:37
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:39
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:37
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:42
+#: includes/admin/admin-playlist-functions.php:49
+#: includes/admin/admin-song-functions.php:80
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:42
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:49
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:80
+msgid "Choose an image"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:43
+#: includes/admin/admin-playlist-functions.php:50
+#: includes/admin/admin-song-functions.php:81
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:43
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:50
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:81
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:46
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:46
+msgid "Defaut Artwork"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:53
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:53
+msgid "Autoplay (not recommended)"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:62
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:62
+msgid "Uploading, please wait."
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:95
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:95
+msgid "The playlist name can not be empty."
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:125
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:125
+msgid "Your playlist has been created succesfully."
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:138
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:138
+msgid "Your playlist has been updated."
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:145
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:145
+msgid "Unknow error occured, please try again later"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:169
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:169
+msgid "Playlist deleted"
+msgstr ""
+
+#: includes/admin/admin-playlist-functions.php:173
+#: pack/wolf-jplayer/includes/admin/admin-playlist-functions.php:173
+msgid "The playlist you are trying to delete does not exist."
+msgstr ""
+
+#: includes/admin/admin-playlists.php:35
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:35
+msgid "Songs count"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:36
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:36
+msgid "Name"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:38
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:38
+msgid "Default Artwork"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:39
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:39
+msgid "Autoplay"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:40 includes/admin/admin-songs.php:67
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:40
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:67
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:57
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:57
+msgid "Edit playlist name"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:58
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:58
+msgid "Upload a custom logo for your playlist"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:58
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:58
+msgid "Add a logo"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:60
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:60
+msgid "Upload a default artwork for your playlist songs"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:60
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:60
+msgid "Add a default artwork"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:62 includes/admin/admin-songs.php:89
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:62
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:89
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:62 includes/admin/admin-songs.php:89
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:62
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:89
+msgid "No"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:66
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:66
+msgid "Manage songs"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:67
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:67
+msgid "Edit playlist"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:69
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:69
+msgid "Delete playlist"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:69
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:69
+msgid "Are you sure to want to delete this playlist and all songs in it ?"
+msgstr ""
+
+#: includes/admin/admin-playlists.php:79
+#: pack/wolf-jplayer/includes/admin/admin-playlists.php:79
+msgid "No playlist yet, create you first playlist using the form above!"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:22
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:22
+msgid "Submit"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:43
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:43
+#, php-format
+msgid "Upload a new song in \"%s\" playlist"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:46
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:46
+msgid "Update your song"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:50
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:50
+msgid "Song title"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:54
+#: includes/admin/admin-songs.php:62
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:54
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:62
+msgid "Artist"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:60
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:60
+msgid "Mp3 URL"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:61
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:61
+msgid "(Enter an URL or choose a song from the media library)"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:64
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:64
+msgid "Choose an mp3 file"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:68
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:68
+msgid "Ogg URL"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:69
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:69
+msgid "(Optional ogg file for firefox and opera)"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:72
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:72
+msgid "Choose an ogg file"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:77
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:77
+msgid "Artwork (jpg or png)"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:85
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:85
+msgid "Itunes URL"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:90
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:90
+msgid "Amazon URL"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:95
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:95
+msgid "Other \"buy\" URL"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:99
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:99
+msgid "Free download"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:101
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:101
+msgid "Will overwrite the \"buy\" URLs above"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:115
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:115
+msgid "back to the \"add a song\" form"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:118
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:118
+msgid "back to the playlist manager"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:146
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:146
+msgid "Songs deleted"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:149
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:149
+msgid "No songs selected"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:164
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:164
+msgid "Song deleted"
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:177
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:177
+msgid "Song title can not be empty."
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:184
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:184
+msgid "Please fill an mp3 URL."
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:241
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:241
+msgid "Your song has been added to your playlist."
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:244
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:244
+msgid "Your song could not be added to your database."
+msgstr ""
+
+#: includes/admin/admin-song-functions.php:271
+#: pack/wolf-jplayer/includes/admin/admin-song-functions.php:271
+msgid "Your song has been updated."
+msgstr ""
+
+#: includes/admin/admin-songs.php:55
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:55
+msgid "Songs"
+msgstr ""
+
+#: includes/admin/admin-songs.php:63
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:63
+msgid "Song"
+msgstr ""
+
+#: includes/admin/admin-songs.php:64
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:64
+msgid "Artwork"
+msgstr ""
+
+#: includes/admin/admin-songs.php:65
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:65
+msgid "Free Download"
+msgstr ""
+
+#: includes/admin/admin-songs.php:66
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:66
+msgid "Buy URL"
+msgstr ""
+
+#: includes/admin/admin-songs.php:79
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:79
+msgid "Edit the title"
+msgstr ""
+
+#: includes/admin/admin-songs.php:87
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:87
+msgid "Upload an artwork for your song"
+msgstr ""
+
+#: includes/admin/admin-songs.php:87
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:87
+msgid "Add an artwork"
+msgstr ""
+
+#: includes/admin/admin-songs.php:91
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:91
+msgid "Add links where visitors can purchase your song"
+msgstr ""
+
+#: includes/admin/admin-songs.php:91
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:91
+msgid "Add buy links"
+msgstr ""
+
+#: includes/admin/admin-songs.php:95
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:95
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/admin-songs.php:96
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:96
+msgid "Are you sure to want to delete this  song ?"
+msgstr ""
+
+#: includes/admin/admin-songs.php:96
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:96
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/admin-songs.php:104
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:104
+msgid "Action"
+msgstr ""
+
+#: includes/admin/admin-songs.php:105
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:105
+msgid "Delete selected songs"
+msgstr ""
+
+#: includes/admin/admin-songs.php:110
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:110
+msgid "No songs uploaded in this  playlist yet."
+msgstr ""
+
+#: includes/admin/admin-songs.php:115
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:115
+msgid "Your server infos"
+msgstr ""
+
+#: includes/admin/admin-songs.php:119
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:119
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">How to Increase your Upload Size Limit</a>"
+msgstr ""
+
+#: includes/admin/admin-songs.php:121
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:121
+msgid ""
+"Your upload size limit seems a but low. Here is a tip to increase your "
+"upload limit"
+msgstr ""
+
+#: includes/admin/admin-songs.php:148
+#: pack/wolf-jplayer/includes/admin/admin-songs.php:148
+msgid "Are you sure to want to delete these songs?"
+msgstr ""
