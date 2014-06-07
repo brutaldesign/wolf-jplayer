@@ -359,7 +359,7 @@ if ( ! class_exists( 'Wolf_Jplayer_Show' ) ) {
 					<div class="jp-logo" style="' . $logo . '"></div><span title="'. __( 'share', 'wolf' ) .'" class="wolf-jp-share-icon"></span>';
 
 			if ( ! $in_popup )
-				$html .= '<a href="' . esc_url( home_url( '/' ) ) . '/player/?playlist_id=' . $playlist_id . '&amp;iframe=false" class="wolf-jp-popup" title="popup window"></a>';
+				$html .= '<a href="' . esc_url( home_url( '/' ) ) . 'player/?playlist_id=' . $playlist_id . '&amp;iframe=false" class="wolf-jp-popup" title="popup window"></a>';
 				$html .= '<div class="jp-type-playlist">
 					<div class="jp-gui jp-interface">
 						<ul class="jp-controls">

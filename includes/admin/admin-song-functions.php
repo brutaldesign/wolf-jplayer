@@ -26,7 +26,7 @@ function wolf_song_form( $playlist_id = null , $song_id = null ) {
 	$mp3                          = null;
 
 	if ( $song_id ) {
-		$song_id      = intval($song_id);
+		$song_id      = intval( $song_id );
 		$song         = $wpdb->get_row( "SELECT * FROM $wolf_jplayer_table WHERE id = '$song_id' AND playlist_id = '$playlist_id'" );
 		$song_name    = $song->name;
 		$ogg          = $song->ogg;
@@ -74,30 +74,30 @@ function wolf_song_form( $playlist_id = null , $song_id = null ) {
 			<?php endif; ?>
 			<p>
 				<label for="poster"><?php _e( 'Artwork (jpg or png)', 'wolf' ); ?> (80px X 80px)</label>
-				<input type="hidden" name="poster" value="<?php echo $poster; ?>">
+				<input type="hidden" name="poster" value="<?php echo esc_url( $poster ); ?>">
 				<img <?php if ( ! $poster ) echo 'style="display:none;"'; ?> class="wolf_jplayer_img_preview" src="<?php echo esc_url( $poster ); ?>" alt="poster">
 				<a href="#" class="wolf_jplayer_upload_img_button button"><?php _e( 'Choose an image', 'wolf' ); ?></a>
 				<a href="#" class="button wolf_jplayer_reset"><?php _e( 'Clear', 'wolf' ); ?></a>
 			</p>
 			<p>
 				<label for="itunes"><?php _e( 'Itunes URL', 'wolf' ); ?></label>
-				<input type="text" name="itunes" value="<?php echo $itunes; ?>">
+				<input type="text" name="itunes" value="<?php echo esc_url( $itunes ); ?>">
 			</p>
 			<p>
 				<label for="amazon"><?php _e( 'Amazon URL', 'wolf' ); ?></label>
-				<input type="text" name="amazon" value="<?php echo $amazon; ?>">
+				<input type="text" name="amazon" value="<?php echo esc_url( $amazon ); ?>">
 			</p>
 			<p>
 				<label for="buy"><?php _e( 'Other "buy" URL', 'wolf' ); ?></label>
-				<input type="text" name="buy" value="<?php echo $buy; ?>">
+				<input type="text" name="buy" value="<?php echo esc_url( $buy ); ?>">
 			</p>
 			<p>
 				<label for="free"><?php _e( 'Free download', 'wolf' ); ?></label>
 				<input type="checkbox" name="free" <?php echo ( $free ) ? 'checked="checked"' : '' ?>>
 				<em><?php _e( 'Will overwrite the "buy" URLs above', 'wolf' ) ?></em>
 			</p>
-			<input type="hidden" name="playlist_id" value="<?php echo $playlist_id; ?>">
-			<input type="hidden" name="song_id" value="<?php echo $song_id; ?>">
+			<input type="hidden" name="playlist_id" value="<?php echo absint( $playlist_id ); ?>">
+			<input type="hidden" name="song_id" value="<?php echo absint( $song_id ); ?>">
 			<p>
 				<input type="submit" class="button-primary" name="manage_song" value="<?php echo $submit_value; ?>">
 			</p>
