@@ -3,7 +3,7 @@
  * Plugin Name: Wolf jPlayer
  * Plugin URI: http://wpwolf.com/plugin/wolf-jplayer
  * Description: A WordPress plugin based on the jPlayer jQuery plugin. Allows multiple playlists and supports multiple uploads.
- * Version: 2.1.7.2
+ * Version: 2.1.7.3
  * Author: WpWolf
  * Author URI: http://wpwolf.com/
  * Requires at least: 3.5
@@ -51,7 +51,7 @@ if ( ! class_exists( 'Wolf_Jplayer' ) ) {
 		/**
 		 * @var string
 		 */
-		public $version = '2.1.7.2';
+		public $version = '2.1.7.3';
 
 		/**
 		 * @var string

@@ -65,16 +65,6 @@
 
 .wolf-jplayer-playlist {
 
-	position: relative;
-
-	zoom: 1;
-	&:before, &:after { content: ""; display: table; }
-	&:after { clear: both; }
-
-	li:before, li:after{
-		display:none!important;
-	}
-
 	*{
 		-webkit-box-sizing: content-box;
 		-moz-box-sizing:    content-box;
@@ -84,6 +74,16 @@
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box; }
+	}
+
+	position: relative;
+
+	zoom: 1;
+	&:before, &:after { content: ""; display: table; }
+	&:after { clear: both; }
+
+	li:before, li:after{
+		display:none!important;
 	}
 
 	img{
@@ -435,7 +435,6 @@
 
 	div.jp-audio{
 
-
 		.jp-interface {
 			position: static ;
 			position: relative;
@@ -444,9 +443,8 @@
 			height: 120px;
 			padding-top: 40px;
 			
-			
-
 			ul.jp-controls {
+	
 				list-style-type: none;
 				padding: 0;
 				overflow: hidden;
